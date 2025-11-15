@@ -1,2 +1,0 @@
-# javaPractice
-Java assignments
