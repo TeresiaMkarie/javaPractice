@@ -1,14 +1,11 @@
-
 import javax.swing.*;
 import java.awt.*;
 
-public class Swing {
+public class  MyFrame{
 
-    public static void main(String []args){
-
-        //An instance of a JFrame
-         
-        JFrame frame = new JFrame();
+  MyFrame(){
+        
+        JFrame frame =new JFrame();
         frame.setTitle("My Title"); //sets title of frame
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //exit out of application
         frame.setResizable(false); //prevents the frame from being resized
@@ -19,10 +16,10 @@ public class Swing {
         ImageIcon image = new ImageIcon("apple.jpg");
         frame.setIconImage(image.getImage()); //Changes the icon of the frame
         frame.getContentPane().setBackground(new Color(0xad56ff)); //change color of backkground
-
-    }
-
-    
+ }
+public static void main(String [] args){
+    new MyFrame();
 }
+ }
     
 

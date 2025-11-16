@@ -1,6 +1,5 @@
 //Java Program using label(swing)
 //to display the message "MSU WEB Site Click"
-import java.io.*;
 import javax.swing.*;
  //Main class
 class MSU {
