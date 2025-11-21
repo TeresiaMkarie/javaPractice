@@ -8,14 +8,10 @@ public class Labels{
 
     //JLabel = a GUI display area for a string of text, an image, or both
  
-    //creating an imageicon
-
-    ImageIcon image = new ImageIcon("full-stop.png");
     Border  border = BorderFactory.createLineBorder(Color.BLACK,1);
 
     JLabel label = new JLabel(); // create a label
     label.setText("My Code"); //set text of label
-    label.setIcon(image);
     label.setHorizontalTextPosition(JLabel.CENTER);                      
     label.setVerticalTextPosition(JLabel.TOP);
     label.setForeground(new Color(0x11ff33)); //sets color of text
